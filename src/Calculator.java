@@ -3,7 +3,6 @@ import java.awt.Color;
 import java.awt.Font;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-
 import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
@@ -24,6 +23,7 @@ public class Calculator implements ActionListener{
 	double newValue, oldValue;
 	int calculation;
 	
+	// adding just a comment on this file for GH commands excercise
 	public Calculator(){
         jf=new JFrame("calculator");
         jf.setBounds(0, 0, 500, 550);
