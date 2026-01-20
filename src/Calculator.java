@@ -24,6 +24,7 @@ public class Calculator implements ActionListener{
 	int calculation;
 	
 	// adding just a comment on this file for GH commands excercise
+	// 2nd try under branch calculator-patch-branch
 	public Calculator(){
         jf=new JFrame("calculator");
         jf.setBounds(0, 0, 500, 550);
